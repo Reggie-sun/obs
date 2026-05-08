@@ -1,0 +1,1 @@
+API_PORT=18021 docker compose up -d api

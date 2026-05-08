@@ -1,0 +1,1 @@
+“Attention 的本质是：每个 token 根据 Query 和 Key 的相似度，对所有 token 的 Value 做加权求和。它能让模型在一个步骤里看到全局依赖，因此极适合语义建模。”
