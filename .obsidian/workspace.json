@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RAG上线前准备/github action.md",
+                "file": "RAG细节/还需要做的事情.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "github action"
+              "title": "还需要做的事情"
             }
           },
           {
@@ -255,13 +255,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RAG上线前准备/github action.md",
+                "file": "RAG细节/还需要做的事情.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "github action 的大纲"
+              "title": "还需要做的事情 的大纲"
             }
           }
         ],
@@ -284,6 +284,8 @@
   },
   "active": "4766f6cf83bcd531",
   "lastOpenFiles": [
+    "RAG上线前准备/github action.md",
+    "RAG细节/还需要做的事情.md",
     "测试细节/shared data.md",
     "RAG细节/共享data.md",
     "RAG上线前准备/make verify-retrieval-release.md",
@@ -295,7 +297,6 @@
     "RAG细节/服务器worker.md",
     "RAG细节/该优化什么.md",
     "RAG细节/数据结构.md",
-    "RAG上线前准备/github action.md",
     "RAG上线前准备/最小SOP.md",
     "RAG上线前准备.md",
     "未命名 1",
@@ -311,7 +312,6 @@
     "main 分支清洗/启动.md",
     "RAG文件夹/看懂代码.md",
     "RAG文件夹/混合检索召回.md",
-    "RAG文件夹/权限登陆控制.md",
     "测试细节",
     "main 分支清洗",
     "SKILL",
