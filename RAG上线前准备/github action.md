@@ -1,4 +1,37 @@
 
+
+你这边要启动的不是 GitHub Actions 本身，而是**本机的 self-hosted runner**。  
+我刚看了下，你的 runner 目录还在：~/actions-runner，而且现在**没有发现正在跑的 runner service**。
+
+最直接的启动方式：
+
+`cd ~/actions-runner ./run.sh`
+
+启动后看到类似下面就说明好了：
+
+`Connected to GitHub Listening for Jobs`
+
+如果 GitHub 上已经有 queued 的 workflow，它会自动接单。
+
+如果你不想一直占着这个终端，可以新开一个终端专门挂着，或者临时后台跑：
+
+`cd ~/actions-runner nohup ./run.sh > runner.log 2>&1 & tail -f runner.log`
+
+如果你想让它以后**重启后自动起来**，可以改成 service 方式：
+
+`cd ~/actions-runner sudo ./svc.sh install sudo ./svc.sh start`
+
+然后检查：
+
+`sudo ./svc.sh status`
+
+一句话建议：
+
+- 现在先用 ~/actions-runner/run.sh 手动拉起来
+- 如果你以后经常重启机器，就改成 svc.sh install + start
+
+
+
 GitHub Actions 在你这套 retrieval/eval 体系里的作用，不是“替代本地命令”，而是**把 release gate 变成稳定、可复现、可留证据的外部执行平面**。
 
 可以分成 4 层看。
