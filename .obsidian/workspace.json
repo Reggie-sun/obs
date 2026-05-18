@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RAG细节/还需要做的事情.md",
+                "file": "RAG上线前准备/make verify-retrieval-release.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "还需要做的事情"
+              "title": "make verify-retrieval-release"
             }
           },
           {
@@ -255,13 +255,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RAG细节/还需要做的事情.md",
+                "file": "RAG上线前准备/make verify-retrieval-release.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "还需要做的事情 的大纲"
+              "title": "make verify-retrieval-release 的大纲"
             }
           }
         ],
@@ -285,6 +285,16 @@
   "active": "4766f6cf83bcd531",
   "lastOpenFiles": [
     "RAG上线前准备/github action.md",
+    "测试细节/RAG SKILL.md",
+    "Pasted image 20260518080510.png",
+    "Pasted image 20260114150227.png",
+    "Pasted image 20260518080544.png",
+    "Pasted image 20260518080609.png",
+    "Pasted image 20260518080623.png",
+    "Pasted image 20260518080647.png",
+    "Pasted image 20260518080649.png",
+    "python.md",
+    "RAG细节/eval.md",
     "RAG细节/还需要做的事情.md",
     "测试细节/shared data.md",
     "RAG细节/共享data.md",
@@ -308,10 +318,6 @@
     "RAG文件夹/代码结构和细节理解.md",
     "RAG文件夹/模型启动.md",
     "RAG细节/OCR.md",
-    "测试细节/worker调试.md",
-    "main 分支清洗/启动.md",
-    "RAG文件夹/看懂代码.md",
-    "RAG文件夹/混合检索召回.md",
     "测试细节",
     "main 分支清洗",
     "SKILL",
@@ -319,15 +325,9 @@
     "Pasted image 20251221033758.png",
     "深度学习",
     "Pasted image 20251226070849.png",
-    "Pasted image 20251221025102.png",
     "RAG细节",
     "RAG文件夹/SUPERPOWERS_SKILLS_GUIDE.md.tmp.3367212.1775897603010",
     "RAG文件夹/SUPERPOWERS_SKILLS_GUIDE.md.tmp.3367212.1775897584726",
-    "RAG文件夹/SUPERPOWERS_SKILLS_GUIDE.md.tmp.3367212.1775897569534",
-    "Pasted image 20260114150227.png",
-    "Pasted image 20260106165439.png",
-    "Pasted image 20251226071545.png",
-    "Pasted image 20251225011209.png",
-    "Pasted image 20251221023112.png"
+    "RAG文件夹/SUPERPOWERS_SKILLS_GUIDE.md.tmp.3367212.1775897569534"
   ]
 }
